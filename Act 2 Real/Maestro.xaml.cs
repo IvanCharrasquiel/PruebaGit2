@@ -32,7 +32,7 @@ namespace Act_2_Real
 
         private void Futbol_Clicked(object sender, EventArgs e)
         {
-            NavigationToPage(new ProgramacionPage());
+            NavigationToPage(new Futbol());
             OcultarDetalles();
         }
 
