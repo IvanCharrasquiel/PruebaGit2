@@ -3,5 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Act_2_Real.Maestro"
              Title="Maestro">
-    
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Button Text="Datos curiosos cafe"
+             Clicked="GoToCafePage"
+             Margin="20,10"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
 </ContentPage>
