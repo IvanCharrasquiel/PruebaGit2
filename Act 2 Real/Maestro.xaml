@@ -3,5 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Act_2_Real.Maestro"
              Title="Maestro">
+
+
+    <VerticalStackLayout>
+        <Button Text="Dato curioso 2"
+          Clicked="GoToPaisesPage"
+          Margin="20,10"/>
+    </VerticalStackLayout>
     
 </ContentPage>
