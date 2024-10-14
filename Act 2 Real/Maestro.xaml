@@ -2,6 +2,29 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Act_2_Real.Maestro"
+             
              Title="Maestro">
-    
+    <ScrollView>
+
+        <VerticalStackLayout >
+            <Label Text="CURIOSIDADES"
+                   HorizontalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="Navy"/>
+            
+            <Image Source="jorge.png"/>
+            <Button Text="Programacion"
+                    Clicked="Programacion_Clicked"
+                    Margin="20,10">
+            </Button>
+
+            <Button Text="Programacion"
+                    Clicked="Futbol_Clicked"
+                    Margin="20,10">
+            </Button>
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
