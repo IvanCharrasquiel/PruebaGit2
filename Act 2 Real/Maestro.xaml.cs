@@ -33,8 +33,15 @@ namespace Act_2_Real
         private void Futbol_Clicked(object sender, EventArgs e)
         {
             NavigationToPage(new Futbol());
+            
+        private void GoToCafePage(object sender, EventArgs e)
+        {
+
+            NavigationToPage(new Cafe());
+
             OcultarDetalles();
         }
+
 
 
     }

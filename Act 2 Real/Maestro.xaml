@@ -23,8 +23,15 @@
                     Margin="20,10">
             </Button>
 
+             <Button Text="Datos curiosos cafe"
+             Clicked="GoToCafePage"
+             Margin="20,10"/>
+
 
 
         </VerticalStackLayout>
     </ScrollView>
+
+  
+
 </ContentPage>
