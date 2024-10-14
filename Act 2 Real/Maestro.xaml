@@ -18,7 +18,7 @@
                     Margin="20,10">
             </Button>
 
-            <Button Text="Programacion"
+            <Button Text="Futbol"
                     Clicked="Futbol_Clicked"
                     Margin="20,10">
             </Button>
